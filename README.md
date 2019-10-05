@@ -1,8 +1,7 @@
 # ParkComAcademy
-Level 1 ~ Level 4 all code files  
 
 Level 1  
->Basic algorithm questions /C  
+>Basic Algorithm Questions /C  
 
 Level 2  
 >Array Library /C  
@@ -27,3 +26,7 @@ Level 4
 >AddressBook Project /Java  
 >BusinessCardHolder Project /Java  
 >AccountBook Project /Java  
+
+Level 5
+>Notepad Project - Available as part of the software only /C++  
+>Notepad Project - Software /C++  
