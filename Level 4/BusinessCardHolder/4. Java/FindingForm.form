@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="IDC_BUTTON_FIRST" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                      <Component id="IDC_BUTTON_PREVIOUS" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="IDC_BUTTON_NEXT" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="69" max="32767" attributes="0"/>
+                      <Component id="IDC_BUTTON_LAST" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jPanel2" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="IDC_BUTTON_FIND" pref="93" max="32767" attributes="0"/>
+                  <Component id="IDC_BUTTON_SELECT" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="IDC_BUTTON_FIND" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="IDC_BUTTON_SELECT" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="IDC_BUTTON_FIRST" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="IDC_BUTTON_PREVIOUS" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="IDC_BUTTON_NEXT" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="IDC_BUTTON_LAST" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="35" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="IDC_EDIT_NAME" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_EDIT_NAME" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc131;&#xba85; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="IDC_EDIT_NAME">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="IDC_STATIC_COMPANY_NAME" alignment="0" pref="364" max="32767" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_ADDRESS" alignment="0" max="32767" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_TELEPHONENUMBER" alignment="0" max="32767" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_FAXNUMBER" max="32767" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_URL" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_NAME" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_ADDRESS" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_TELEPHONENUMBER" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_FAXNUMBER" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_COMPANY_URL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc0c1;&#xd638; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc8fc;&#xc18c; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc804;&#xd654;&#xbc88;&#xd638; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xd329;&#xc2a4;&#xbc88;&#xd638; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xd648;&#xd398;&#xc774;&#xc9c0; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_COMPANY_NAME">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_COMPANY_ADDRESS">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_COMPANY_TELEPHONENUMBER">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_COMPANY_FAXNUMBER">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_COMPANY_URL">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="IDC_STATIC_PERSONAL_NAME" alignment="0" max="32767" attributes="0"/>
+                              <Component id="IDC_STATIC_PERSONAL_TELEPHONENUMBER" alignment="0" max="32767" attributes="0"/>
+                              <Component id="IDC_STATIC_PERSONAL_EMAILADDRESS" max="32767" attributes="0"/>
+                              <Component id="IDC_STATIC_PERSONAL_POSITION" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_PERSONAL_NAME" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_PERSONAL_TELEPHONENUMBER" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_PERSONAL_EMAILADDRESS" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IDC_STATIC_PERSONAL_POSITION" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc131;&#xba85; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc804;&#xd654;&#xbc88;&#xd638; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc774;&#xba54;&#xc77c;&#xc8fc;&#xc18c; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc9c1;&#xcc45; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_PERSONAL_NAME">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_PERSONAL_TELEPHONENUMBER">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_PERSONAL_EMAILADDRESS">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IDC_STATIC_PERSONAL_POSITION">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="IDC_BUTTON_FIND">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xcc3e;&#xae30;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDC_BUTTON_FINDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="IDC_BUTTON_SELECT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc120;&#xd0dd;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDC_BUTTON_SELECTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="IDC_BUTTON_FIRST">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xcc98;&#xc74c;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDC_BUTTON_FIRSTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="IDC_BUTTON_PREVIOUS">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc774;&#xc804;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDC_BUTTON_PREVIOUSActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="IDC_BUTTON_NEXT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xb2e4;&#xc74c;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDC_BUTTON_NEXTActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="IDC_BUTTON_LAST">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xb9c8;&#xc9c0;&#xb9c9;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDC_BUTTON_LASTActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
