@@ -28,5 +28,5 @@ Level 4
 >AccountBook Project /Java  
 
 Level 5
->Notepad Project - Available as part of the software only /C++
->Notepad Project - Software /C++
+>Notepad Project - Available as part of the software only /C++  
+>Notepad Project - Software /C++  
