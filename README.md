@@ -28,7 +28,7 @@ Level 4
 
 Level 5
 >Notepad Project - Available as part of the software only /C++  
->Notepad Project - Software /C++  
+>Notepad Project - Software /C++ _[other repository](https://github.com/kch7990/Notepad)_  
 
 Level 6  
 >Neuron Project - Deep Learning Simulation Program /C++  
