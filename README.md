@@ -22,7 +22,6 @@ Level 4
 >BusinessCardHolder Project /C++  
 >AccountBook Project /C++  
 >Stack Libaray /C++  
->Queue Library /C++  
 >AddressBook Project /Java  
 >BusinessCardHolder Project /Java  
 >AccountBook Project /Java  
